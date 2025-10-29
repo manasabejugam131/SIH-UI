@@ -1,1 +1,120 @@
 
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f6f8fa;
+  margin: 0;
+}
+nav {
+  background: #004aad;
+  color: #fff;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: #fff;
+  margin-left: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+.ved-login-container {
+  max-width: 400px;
+  margin: 5em auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 16px rgba(0,0,0,0.1);
+  padding: 2em;
+  text-align: center;
+}
+.ved-login-form input {
+  display: block;
+  width: 90%;
+  margin: 1em auto;
+  padding: 0.5em;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.ved-login-form button {
+  background: #004aad;
+  color: #fff;
+  border: none;
+  padding: 0.7em 2em;
+  border-radius: 8px;
+  font-size: 1em;
+}
+.login-note {
+  color: #777;
+  margin-top: 1em;
+}
+.video-section {
+  max-width: 800px;
+  margin: 2em auto;
+  background: #fff;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 3px 16px rgba(0,0,0,0.07);
+}
+.topics {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+  display: flex;
+  gap: 1em;
+}
+.topics li a {
+  background: #e3eafc;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  color: #004aad;
+  text-decoration: none;
+  font-weight: bold;
+}
+.video-container {
+  margin-top: 2em;
+}
+.video-container video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+}
+.quiz-btn {
+  display: inline-block;
+  margin-top: 1em;
+  background: #00c46a;
+  color: #fff;
+  padding: 0.5em 1.5em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.quiz-section {
+  background: #f7fdfc;
+  margin: 2em auto;
+  max-width: 600px;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.chatroom {
+  display: flex;
+  gap: 2em;
+  max-width: 900px;
+  margin: 2em auto;
+}
+.chat-box, .chatbot {
+  flex: 1;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2em;
+  box-shadow: 0 3px 16px rgba(0,0,0,0.08);
+}
+#chat-messages, #bot-messages {
+  height: 200px;
+  overflow-y: auto;
+  background: #f2f6ff;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #e3eafc;
+}
