@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VED Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h2>VED Dashboard</h2>
+    <a href="chat.html">Chat Room</a>
+    <a href="index.html">Logout</a>
+  </nav>
+  <section class="video-section">
+    <h3>Video Lectures</h3>
+    <ul class="topics">
+      <li><a href="#video1">Introduction to Algebra</a></li>
+      <li><a href="#video2">Linear Equations</a></li>
+      <li><a href="#video3">Quadratic Equations</a></li>
+    </ul>
+    <div class="video-container" id="video1">
+      <h4>Introduction to Algebra</h4>
+      <video src="assets/video1.mp4" controls></video>
+      <h5>Subtopics:</h5>
+      <ul>
+        <li>What is Algebra?</li>
+        <li>Algebraic Expressions</li>
+        <li>Simple Equations</li>
+      </ul>
+      <a href="#quiz1" class="quiz-btn">Take Quiz</a>
+    </div>
+    <!-- More video containers can be added similarly -->
+  </section>
+  <section class="quiz-section" id="quiz1">
+    <h3>Quiz: Algebra Basics</h3>
+    <form>
+      <label>1. What is x in 2x + 3 = 7?</label>
+      <input type="text" name="q1">
+      <button type="submit">Submit Answers</button>
+    </form>
+  </section>
+</body>
 
